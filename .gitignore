@@ -1,52 +1,31 @@
-# Prerequisites
-*.d
+# DOTNET
+[Bb]in/
+[Dd]ebug/
+[Dd]ist/
+[Oo]bj/
+[Pp]ackages/
+[Pp]ublish/
+[Rr]elease/
+[Tt]est[Rr]esult*/
+x64/
+x86/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# NUGET
+*.nupkg
+*.nuget.props
+*.nuget.targets
 
-# Linker output
-*.ilk
-*.map
-*.exp
+**/Properties/launchSettings.json
+coverage.info
+coverage.json
+coverage.xml
+*.coverage
+*.coveragexml
+*.sh
+*.py
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# TOOLS
+.vs/
+.vscode/
+.idea/
+*.user
